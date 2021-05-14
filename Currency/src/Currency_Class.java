@@ -2,54 +2,53 @@ class Currency{
     double val;
     String sign;
 
-    public Currency(double val, String sign) {}
+    public Currency(double val, String sign) {
+        this.val = val;
+        this.sign = sign;
+    }
+
+    public String toString(){
+        return val + " " + sign;
+    }
 }
 
 class KRW extends Currency{
     public KRW(double val, String sign) {
         super(val, sign);
-        this.val = val;
-        this.sign = sign;
     }
 
     public String toString() {
-        return "KRW " + this.val + " " + this.sign;
+        return "KRW " + super.toString();
     }
 }
 
 class USD extends Currency{
     public USD(double val, String sign) {
         super(val, sign);
-        this.val = val;
-        this.sign = sign;
     }
 
     public String toString() {
-        return "USD " + this.val + " " + this.sign;
+        return "USD " + super.toString();
     }
 }
 
 class EUR extends Currency{
     public EUR(double val, String sign) {
         super(val, sign);
-        this.val = val;
-        this.sign = sign;
     }
 
     public String toString() {
-        return "EUR " + this.val + " " + this.sign;
+        return "EUR " + super.toString();
     }
 }
 
 class JPY extends Currency{
     public JPY(double val, String sign) {
         super(val, sign);
-        this.val = val;
-        this.sign = sign;
     }
 
     public String toString() {
-        return "JPY " + this.val + " " + this.sign;
+        return "JPY " + super.toString();
     }
 }
 
