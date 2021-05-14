@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Currency/Currency.iml" filepath="$PROJECT_DIR$/Currency/Currency.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/EOS_taerangKim.iml" filepath="$PROJECT_DIR$/.idea/EOS_taerangKim.iml" />
       <module fileurl="file://$PROJECT_DIR$/starpoint/starpoint.iml" filepath="$PROJECT_DIR$/starpoint/starpoint.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled1/untitled1.iml" filepath="$PROJECT_DIR$/untitled1/untitled1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled2/untitled2.iml" filepath="$PROJECT_DIR$/untitled2/untitled2.iml" />
     </modules>
   </component>
 </project>
