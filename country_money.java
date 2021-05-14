@@ -1,63 +1,46 @@
 class Currency{
-    String name;
-    public Currency(String name){
-        this.name = name;
-    }
+    double val;
+    String sign;
+    public Currency(){}
 }
 
 class KRW extends Currency{
-    double val;
-    String sign;
     public KRW(double val, String sign) {
-        super("KRW");
-        this.val = val;
-        this.sign = sign;
+        super(val, sign);
     }
 
     public String toString() {
-        return this.name + " " + this.val + " " + this.sign;
+        return "KRW " + this.val + " " + this.sign;
     }
 }
 
 class USD extends Currency{
-    double val;
-    String sign;
     public USD(double val, String sign) {
-        super("USD");
-        this.val = val;
-        this.sign = sign;
+        super(val, sign);
     }
 
     public String toString() {
-        return this.name + " " + this.val + " " + this.sign;
+        return "USD " + this.val + " " + this.sign;
     }
 }
 
-class EUR extends Currency{
-    double val;
-    String sign;
+class EUR extends Currency{ String sign;
     public EUR(double val, String sign) {
-        super("EUR");
-        this.val = val;
-        this.sign = sign;
+        super(val, sign);
     }
 
     public String toString() {
-        return this.name + " " + this.val + " " + this.sign;
+        return "EUR " + this.val + " " + this.sign;
     }
 }
 
 class JPY extends Currency{
-    double val;
-    String sign;
     public JPY(double val, String sign) {
-        super("JPY");
-        this.val = val;
-        this.sign = sign;
+        super(val, sign);
     }
 
     public String toString() {
-        return this.name + " " + this.val + " " + this.sign;
+        return "JPY " + this.val + " " + this.sign;
     }
 }
 
