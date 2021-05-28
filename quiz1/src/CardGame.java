@@ -8,7 +8,7 @@ class Card {
 
     public Card (int symbol, int number) {
         this.symbol = symbol;
-        this.number = number();
+        this.number = number;
     }
 
     public Card (Card aCard) {
